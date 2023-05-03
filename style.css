@@ -1,0 +1,330 @@
+header{
+    position: relative;
+    background-image: url(images/swords.png);
+    padding: 0 10px 5px 10px;
+    height: 100px;
+    border-radius: 8px;
+}
+header h1{
+    font-size: 70px;
+    text-align: center;
+    color: gold;
+    text-decoration-line: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+nav{
+    background-color: #d3d3d3;
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+nav a{
+    color:gray;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 1em;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
+header img{
+    position: absolute;
+    top: 40%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+nav a:hover{
+    background-color: #add8e6;
+}
+body{
+        background: url(images/background.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+section article{
+    border: 1px solid grey;
+    border-radius: 8px;
+    /*margin: 20px 10px;*/
+}
+#ocom{
+    background-color: rgb(220,220,220,0.5);
+    padding-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 5%;  
+    float: left;
+    width: 30%;
+    min-height: 200px;
+}
+#frakcie{
+    background-color: rgb(220,220,220,0.5);
+    padding-bottom: 10px;
+    margin: 20px 10px;
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#tp {
+    background-color: rgb(220,220,220,0.5);
+    padding-bottom: 10px;
+    margin-top: 20px;
+    position: relative;;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#poziadavky{   
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 91%;
+    left: 5%;
+}
+h2{
+    text-align: center;
+}
+#poziadavky h2{
+    text-align: center;
+}
+footer {
+    clear: both;
+    border: 1px solid grey;
+    border-radius: 8px;
+    float: left;
+    position: relative;
+    width: 91%;
+    background-color: rgb(220,220,220,0.5);
+    left: 5%;
+    margin-top: 10px;
+}
+/*začiatok podstránok*/
+
+#warden{
+    margin-top: 20px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    left: 5%;  
+    float: left;
+    width: 30%;
+    min-height: 200px;
+}
+#conq{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+
+#pk {
+    margin-top: 20px;
+    clear: right;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}#lawbro{
+    margin-top: 20px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    left: 5%;  
+    float: left;
+    width: 30%;
+    min-height: 200px;
+}
+#cent{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#glad {
+    margin-top: 20px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#vortiger{
+    margin-top: 20px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    left: 5%;
+    float: left;
+    width: 30%;
+    min-height: 200px;
+}
+#tia{    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 40%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#jj{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 40%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+    clear: right;
+}
+#nuxia{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 40%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+#shao{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220,220,220,0.5);
+    position: relative;
+    width: 40%;
+    float: left;
+    left: 5%;
+    min-height: 200px;
+}
+.samurai{
+    background: url(images/samurai_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact{
+    background: url(images/samurai_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Gallery*/
+.row1 img{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.row1end img{
+    clear: right;
+}
+.row2 img{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.row2end img{
+    clear: right;
+}
+.row3 img{
+    margin: 10px;
+    height: 200px;
+    width: 200px; 
+}
+.row3end img{
+    clear: right;
+}
+.row4 img{
+    margin: 10px;
+    height: 200px;
+    width: 200px; 
+}
+.row4end img{
+    clear: right;
+}
+aside{
+    text-align: center;
+    background-color: rgb(220,220,220,0.5);
+     border: 3px dotted gold;
+     margin-top: 10px;
+     padding: 10px;
+     position: fixed;
+     right:10px;
+     width: 300px;
+     top: 100px;
+}
+/*formatovanie formularu*/
+.meno{
+    float: none;
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+}
+.priezvisko{
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+}
+.mobil{
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+}
+.mail{    
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+}
+.sprava{
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+    clear: right;
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; 
+    position: relative;
+    width: 15%;
+    border-radius: 5px;
+}
+.reset{
+    margin: 10px;
+    position: relative;
+    width: 15%;
+    border-radius: 5px;
+}
+.formula{
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: rgb(220,220,220,0.5);
+}
